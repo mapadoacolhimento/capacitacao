@@ -1,7 +1,7 @@
 services:
 
   moodle:
-    image: bitnami/moodle:4
+    image: bitnami/moodle:latest
 
     environment:
       - MOODLE_DATABASE_TYPE=${MOODLE_DATABASE_TYPE:-pgsql}
